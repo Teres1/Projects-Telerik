@@ -8,6 +8,11 @@ class Person {
     public Person() {
 
     }
+    public Person(String name, double weight, Gender gender) {
+        this.name = name;
+        this.weight = weight;
+        this.gender = gender;
+    }
 
     public String getName() {
         return name;
@@ -33,11 +38,7 @@ class Person {
         this.gender = gender;
     }
 
-    public Person(String name, double weight, Gender gender) {
-        this.name = name;
-        this.weight = weight;
-        this.gender = gender;
-    }
+
 
 
 }
